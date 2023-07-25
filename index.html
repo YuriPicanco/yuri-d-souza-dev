@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio // Yuri D. Souza</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon" href="./assets/img/icon.png">
+</head>
+<body>
+    <header>
+    <nav data-menu="smooth">
+       <p><a href="#home">&lsaquo;YS/&rsaquo;</a></p>
+       <button data-menu="button" aria-controls="menu"></button>
+       <ul data-menu="list" id="menu">
+        <a href="#home">
+          <li>Início</li>
+        </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#conhecimentos">
+          <li>Conhecimentos</li>
+        </a>
+        <a href="#cursos">
+          <li>Cursos</li>
+        </a>
+        <a href="#projetos">
+          <li>Projetos</li>
+        </a>
+      </ul>
+    </nav>
+    </header>
+    <main>
+      <section class="main" id="home">
+        <div class="main__left">
+          <h1>Meu nome é</h1>
+          <span class="main__sentence"></span>
+          <span class="main__input-cursor"></span>
+          <h1>Desenvolvedor Front-End Júnior.</h1>
+        </div>
+        <div class="main__right">
+          <img src="./assets/img/yuri-d-souza-picanco.jpeg" alt="minha foto" data-tilt class="my-photo">
+        </div>
+      </section>
+
+      <section class="about-me animation" id="sobre" data-anime="js-scroll">
+        <div class="about-me__photo">
+          <img src="./assets//img/yuri-d-souza-picanco.jpeg" alt="Uma selfie de Leonardo Machado" />
+        </div>
+        <div class="about-me__description">
+          <h1>Sobre</h1>
+          <h2>Manaus-Am, Brasil</h2>
+          <p class="description-about-me" id="conhecimentos">
+            Desde os 18 anos, despertei minha paixão pela tecnologia e busquei fazer a diferença no mundo. Iniciei minha trajetória como estagiário técnico na Delegacia Geral da Polícia Civil, onde solucionava problemas e aprimorava sistemas. Em seguida, explorei o audiovisual e o empreendedorismo, mas decidi retornar à computação, meu verdadeiro chamado. Sou curioso, entusiasta e movido pela vontade de aprender e criar. Com habilidades técnicas sólidas e uma mentalidade orientada para soluções, estou ansioso para enfrentar desafios e contribuir com meu conhecimento e paixão pela tecnologia. Pronto para fazer a diferença através da computação, estou animado com as oportunidades que o futuro reserva. 
+          </p>
+          <br>
+          <p>
+            <img class="my-knowledges" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+            <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+            <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            <img class="my-knowledges" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+            <img class="my-knowledges" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+            <img class="my-knowledges" alt="Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+            <img class="my-knowledges" alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+            <img class="my-knowledges" alt="Python" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+            <img class="my-knowledges" alt="CSharp" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+            <img class="my-knowledges" alt="C++" src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+            <img class="my-knowledges" alt="Php" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
+            <img class="my-knowledges" alt="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+          </p>
+          <div class="about-me__description-buttons">
+            <a href="mailto: yuri.s.picanco@gmail.com?subject=Yuri, Podemos marcar um bate papo?" target="_blank">
+              <div class="about-me__description-buttons-email">
+                <img src="./assets/img/email.png" alt="meu email">
+                <p>E-mail</p>
+              </div>
+            </a>
+            <div class="main__button">
+              <a href="www.linkedin.com/in/yuri-d-souza" target="_blank">
+                <div class="main__button-linkedin">
+                  <img src="./assets/img/linkedin.png" alt="meu perfil do linkedin">
+                  <p>LinkedIn</p>
+                </div>
+              </a>
+              <a href="https://github.com/YuriPicanco" target="_blank">
+                <div class="main__button-github">
+                  <img src="./assets/img/github.png" alt="meu perfil do github">
+                  <p>GitHub</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses" id="cursos" data-anime="js-scroll">
+        <h1>Cursos</h1>
+        <div class="courses__wrapper">
+          <section class="courses__places">
+            <ul data-tab="menu">
+              <li>Alura</li>
+            </ul>
+          </section>
+          <div class="courses__description" data-tab="content">
+
+            <h2 class="name-course">HTML e CSS</h2>
+            <p class="courses__description-local">Concluído</p>
+            <p class="courses_paragraph">Aprendi desde do básico até CSS Grid Layout, CSS Flexbox, CSS Propriedades, HTML Semântica e Layout Responsivo.</p>
+
+            <h2 class="name-course">JavaScript Completo ES6</h2>
+            <p class="courses__description-local">Em progresso</p>
+            <p class="courses_paragraph">Venho cursando o curso pela Alura, nele aprendi a manipular o DOM, a criar funções Assíncronas e ES6 Modules, npm start, npm init, classes, Arrow Functions, Funções Callback, modelo MVC e padrões de projeto, e atualmente estou passando pela seção de Expressões Regulares. Procuro durante o meu processo de aprendizado fazer projetos pessoais para colocar em prática tudo ensinado.</p>
+
+            <h2 class="name-course">React Completo</h2>
+            <p class="courses__description-local">Em progresso</p>
+            <p class="courses_paragraph">Atualmente comecei a estudar o React e já criei um projeto de Criador de Tarefas. Primeiro passei por React Components e agora verei Hooks. Além de React Router, useContext, CSS Modules, PropTypes, Componentes Funcionais, Propriedade e Eventos.</p>
+
+            <h2 class="name-course">React com Redux</h2>
+            <p class="courses__description-local">Not started</p>
+            <p class="courses_paragraph">O curso será feito após a conclusão do curso de React. Irei aprender a como utilizar o Redux do zero para o desenvolvimento de aplicações que utilizam uma store global para gerenciamento do estado.</p>
+
+            <h2 class="name-course">TypeScript para Iniciantes</h2>
+            <p class="courses__description-local">Not started</p>
+            <p class="courses_paragraph">Irei fazer o curso após a conclusão do curso de JavaScript e aprenderei a manipular dados, criar interfaces, utilizar safe guards, definir o tipo correto de um dado e mais. Sabendo muito mais como o JavaScript funciona.</p>
+
+            <h2 class="name-course">Inglês - Caminho da Fluência</h2>
+            <p class="courses__description-local">Em andamento</p>
+            <p class="courses_paragraph">Desde os 14 anos venho estudando Inglês por conta própria, praticando a conversação e agora comecei a fazer um curso online para melhorar meus conhecimentos no idioma e ter um professor ao meu lado para me ajudar e subir de nível.</p>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+        <div class="projects__wrapper">
+          <section class="projects__card">
+            <a href="https://yuri-d-souza-free-way-three.vercel.app/" target="_blank">
+            <img src="./assets/img/FreeWay.png" alt="Imagem do free way representando meu projeto número 1" class="project-img">
+            </a>
+            <h2>Free Way</h2>
+            <p>
+              Meu primeiro projeto em HTML e JavaScript de um jogo utilizando a biblioteca p5js voltada para uma codificação criativa. A partir dele eu pude evoluir bastante.
+            </p>
+            <span>Tecnologias usadas: 
+              <img class="my-knowledges" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            <a href="https://github.com/YuriPicanco/freeWay" target="_blank">
+              <div class="projects__card-button">
+                <img src="./assets/img/link.png" alt="link do repositório no github">
+                GitHub
+              </div>
+            </a>
+          </section>
+          <section class="projects__card">
+            <a href="https://yuri-d-souza-consulta-cep-rose.vercel.app/" target="_blank">
+            <img src="./assets/img/buscador-de-cep.png" alt="Imagem da tela de cadastro representando meu projeto número 2" class="project-img">
+            </a>
+            <h2>Consulta CEP</h2>
+            <p>
+              Projeto realizado em HTML e JavaScript de tela de cadastro  onde é feito o consumo de API para encontrar e padronizar o cadastro do endereço.
+            </p>
+            <span>Tecnologias usadas: 
+              <img class="my-knowledges" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+            </span>
+            <a href="https://github.com/YuriPicanco/consulta-cep" target="_blank">
+              <div class="projects__card-button">
+              <img src="./assets/img/link.png" alt="link do repositório no github">
+              GitHub
+            </div>
+            </a>
+          </section>
+          <section class="projects__card">
+            <a href="https://yuri-d-souza-frutas-frutos-eight.vercel.app/" target="_blank">
+            <img src="./assets/img/frutasefrutos.png" alt="Imagem doo site de receitas representando meu projeto número 3" class="project-img">
+            </a>
+            <h2>Site de receitas</h2>
+            <p>
+              Projeto realizado em HTML, CSS e BootStrap de um site de receitas com reaproveitamento  .
+            </p>
+            <span>Tecnologias usadas: 
+              <img class="my-knowledges" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img class="my-knowledges" alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+            </span>
+            <a href="https://github.com/YuriPicanco/frutas-frutos" target="_blank">
+              <div class="projects__card-button">
+                <img src="./assets/img/link.png" alt="link do repositório no github">
+                GitHub
+              </div>
+            </a>
+          </section>
+          <section class="projects__card">
+            <a href="https://yuri-s-picanco-spacetime-web-dkee.vercel.app/" target="_blank">
+            <img src="./assets/img/Spacectime.png" alt="Imagem do e-commerce representando meu projeto número 4" class="project-img">
+            </a>
+            <h2>Spacetime</h2>
+            <p>
+              Projeto realizado em HTML, CSS e JavaScript de criação de tarefas.
+            </p>
+            <span>Tecnologias usadas: 
+              <img class="my-knowledges" alt="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img class="my-knowledges" alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img class="my-knowledges" alt="JavaScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+              <img class="my-knowledges" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+              <img class="my-knowledges" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+            <a href="https://github.com/YuriPicanco/spacetime-web" target="_blank">
+              <div class="projects__card-button">
+                <img src="./assets/img/link.png" alt="link do repositório no github">
+                GitHub
+              </div>
+            </a>
+          </section>
+        </div>
+      </section>
+
+      <p class="repository">
+          <a href="https://github.com/YuriPicanco?tab=repositories" target="_blank">
+            <button class="btn"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"> Clique aqui para ver mais repositórios!</button>
+        </a>
+        </a>
+      </p>
+
+      <footer>
+        <p>© 2023 - Yuri D. Souza</p>
+      </footer>
+    </main>
+    <script src="./assets/js/script.js" type="module"></script>
+    <script src="./assets/js/modules/vanilla-tilt.min.js"></script>
+</body>
+</html>
